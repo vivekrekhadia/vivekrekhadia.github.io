@@ -1,147 +1,265 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<style>
-		body{
- 			background-image: url("background2.jpg");
- 			background-repeat: no-repeat;
- 			background-size: cover;
-			}
-
-	</style>
 	<meta charset="utf-8">
-	<title>
-		E-Ducate Homepage
-	</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>E-Ducate Time</title>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+	<script src="https://kit.fontawesome.com/7c91381792.js" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" type="text/css" href="Style.css">
+
+
 </head>
 <body>
-	<div class="main">
-		<p align="center">
-			<font face="sans-serif" size="6" color="#F6E8B1">LOGO</font>
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-			<font face="sans" size="4" color="#ffffff">
-				<a href="#">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-				<a href="#">Courses</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-				<a href="#">FAQ</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-				<a href="#">Contact Us</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-				<a href="web.html">LOGIN</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-			</font>
-		</p>
-		<br><br><br><br><br><br><br><br>
-		<p align="center">
-			<font face="sans-serif" color="#ffffff" size="7">A World of Knowledge at your Fingertips</font>
-		</p>
-		<p align="center">
-			<font face="sans-serif" color="#000" size="5">Talk to people. Connect with them. Make the E-learning sound like it's the conversation between people. Real people,not robots! </font>
-		</p>
-	</div>
 
-	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-light">
+			<a href="#" class="navbar-brand ml-3">E-Ducate<span style="color: #d2b48c;"> Time</span></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle Navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
 
-	<div class="Courses">
-		<hr color="#fff" width="20%">
-		<p align="center">
-			<font face="sans-serif" color="#2ecc17" size="6">Courses</font>
-		</p>
-		<hr color="#fff" width="20%">
+			<div class="collapse navbar-collapse"></div>
 
-		<br>	<br>
+			<div class="collapse navbar-collapse" id="navbarMenu">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+ 						<a href="#" class="nav-link">Home</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Programs & Courses</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">About Us</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">Contact Us</a>
+					</li>
 
-		<table align="center" cellpadding="12" cellspacing="8">
-			<tr>
-				<td>
-					<img src="1.jpg" height="200" width="350" />
-				</td>
-				<td>
-					<img src="2.jpg" height="200" width="350" />
-				</td>
-				<td>
-					<img src="3.jfif" height="200" width="350" />
-				</td>
 
-			</tr>
-			<tr>
-				<td>
-					<img src="4.jpg" height="200" width="350" />
-				</td>
-				<td>
-					<img src="5.jfif" height="200" width="350" />
-				</td>
-				<td>
-					<img src="6.jpg" height="200" width="350" />
-				</td>
+				</ul>
 
-			</tr>
-		</table>
+				<form action="login.html" class="form-inline my-2 my-lg-0">
+						<button class="btn menu-right-btn border" >
+							Login/Register
+						</button>
+				</form>
+			</div>
+		</nav> 
+	</header >
+
+	<main>
+		<div class="container-fluid p-0">
+			<div class="site-content">
+				<div class="d-flex justify-content-center text-center">
+					<div class="d-flex flex-column">
+						<h1 class="site-title">A World of Knowledge at your Fingertips</h1>
+						<p class="site-desc">Talk to people. Connect with them. Make the E-learning sound like it's the conversation between people. Real people ,not robots !</p>
+
+						<div class="d-flex flex-row">
+							<input type="button" value="Login" class="btn site-btn1 px-4 py-3 mr-4 btn-dark" onclick="location.href='login.html';">
+							<input type="button" value="Register" class="btn site-btn2 px-4 py-3 mr-4 btn-light" onclick="location.href='login.html';">
+						</div>
+
+
+					</div>
+				</div>
+				
+			</div>
 		</div>
 
-		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-		<div class="Courses">
-			<hr color="#fff" width="20%">
-			<p align="center">
-				<font face="sans-serif" color="#2ecc17" size="6">FAQ</font>
-			</p>
-			<hr color="#fff" width="20%">
-		</div>
-
-		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
-	<div class="Courses">
-		<hr color="#fff" width="20%">
-		<p align="center">
-			<font face="sans-serif" color="#2ecc17" size="6">Contact Us</font>
-		</p>
-		<hr color="#fff" width="20%">
-
-
-		<br>	<br>	<br>
-		<form name="f1" id="contact-form">
-			<table align="center" cellpadding="10" cellspacing="15" border="1">
-				<tr>
-					<td>
-						<input type="text" name="first-name" placeholder="First Name" required="required"/>
-					</td>
-					<td>
-						<input type="text" name="second-name" placeholder="Second Name" required="required"/>
-					</td>
-				</tr>
-				<tr>
-					<td>
-						<input type="text" name="Email" placeholder="Email" required="required"/>
-					</td>
-					<td>
-						<input type="text" name="subject" placeholder="Subject" required="required"/>
-					</td>
+		<div class="section-1">
+			<div class="container text-center">
+				<h1 class="heading-1">Fantastic Features</h1>
+				<h1 class="heading-2">& achive your goal with E-Ducate Time</h1>
+				<p class="para-1"> E-learning leads to better retention ,saves time and money and it is consistent.Even 87% of people learning for professional development report career benefits like getting a promotion,a raise,or starting a new career.
 					
-				</tr>
-				<tr>
-					<th colspan="2">
-						<textarea name="message" placeholder="Enter your message" required="required" minlength="20" maxlength="100">
-							
-						</textarea>
-					</th>
-				</tr>
-				<tr>
-					<th colspan="2">
-						<input type="submit" name="contact-submit" form="contact-form" value="Send"/>
-					</th>
-				</tr>
-			</table>
-		</form>
+				</p>
 
-		
+				<div class="row justify-content-center text-center">
+					<div class="col-md-4">
+						<div class="card">
+							<img src="time.jpg" alt="Image1" class="card-img-top">
+							<div class="card-body">
+								<h4 class="card-title">Learn on your<br> schedule</h4>
+								<p class="card-text"> It can be easily accessible. Study any topic , anytime ,anywhere.Choose from thousands of expert-led courses now.Reset your deadline easily.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="card">
+							<img src="buy.jpg" alt="Image2" class="card-img-top">
+							<div class="card-body">
+								<h4 class="card-title">Flexible and affordable options</h4>
+								<p class="card-text">Choose from many options including free courses nd university degrees at a breakthrough price.Learn at your own pace,100% online. </p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4">
+						<div class="card">
+							<img src="master.jpg" alt="Image3" class="card-img-top">
+							<div class="card-body">
+								<h4 class="card-title">Master skills with in-depth learning</h4>
+								<p class="card-text">Apply what you learn with the self-paced quizzes and hands-on projeects.Gets feedback from a global community of learners. </p>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+
+
+		<div class="section-2">
+			<div class="container-fluid">
+				<div class="d-flex justify-content-start">
+					<div class="d-flex flex-column m-4">
+						<h1 class="heading-1">Earn industry-recognized credentials</h1>
+						<p class="para">Demonstrate your new skills by sharing your course certificate , Professional Certificate or diploma certificate with your network.</p>
+
+						<input type="button" value="View sample Certificate" class="btn btn-danger">
+
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="section-3">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="d-flex flex-row">
+							<i class="fas fa-brain fa-3x m-2"></i>
+							<div class="d-flex flex-column">
+								<h3 class="m-2">Learn the latest <br>skills</h3>
+								<p class="m-2"> Learn the latest skills with business analytics, graphic design,python,and many more.
+									
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="d-flex flex-row">
+							<i class="fas fa-chalkboard-teacher fa-3x m-2"></i>
+							<div class="d-flex flex-column">
+								<h3 class="m-2">Get ready for a career</h3>
+								<p class="m-2"> Get ready for a career in high-demand fields like IT,AI and cloud engineering.
+									
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="d-flex flex-row">
+							<i class="fas fa-certificate fa-3x m-2"></i>
+							<div class="d-flex flex-column">
+								<h3 class="m-2">Earn a certificate or degree</h3>
+								<p class="m-2"> Earn a certificate or degree from a leading unviersity in business,computer science,and more.									
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			<div class="row mt-2">
+				<div class="col-md-4">
+					<div class="d-flex flex-row">
+						<i class="fas fa-users fa-3x m-2 "></i>
+						<div class="d-flex flex-column">
+							<h3 class="m-2">Upskill your organization</h3>
+							<p class="m-2">Upskill your organization with on-demand training and development programs.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="d-flex flex-row">
+						<i class="fas fa-question fa-3x m-2"></i>
+						<div class="d-flex flex-column">
+							<h3 class="m-2">FAQ <br><br></h3>
+							<p class="m-2">Ask anytime to any counsellor about the doubt and interacte with others to help and solve the problem.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="d-flex flex-row">
+						<i class="fas fa-sliders-h fa-3x m-2"></i>
+						<div class="d-flex flex-column">
+							<h3 class="m-2">Easy customize & easy to use.</h3>
+							<p class="m-2">Easy to customize and easy to use amd has very helpful for a new user to operate.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
+ 	
+
+ 	<div class="section-4 bg-dark">
+ 		<div class="container">
+ 			<div class="row">
+ 				<div class="col-md-7">
+ 					<img src="business3.jpg" alt="Image4" width="590">
+ 				</div>
+ 				<div class="col-md-5">
+ 					<h1 class="text-white">E-Ducate Time for Business </h1>
+ 					<a href="login.html">Learn More</a>
+ 					<p class="para-1">We have got the solution: World-class training and development programs developed by top universities and companies.<br>So take the next step on E-Ducate Time for business.</p>
+ 				</div>
+ 			</div>
+ 		</div>
+ 	</div>
 
 
-	<br>	<br>	<br>	<br>
+
+
+
+
+	</main>
 
 	<footer>
-		<hr color="#fff">
-		<p align="center">
-			<a href="index.html">
-				<font face="sans-serif" size="7" color="#f00"> Logo</font>
-		
+		<div class="section-5 text-center">
+			<h4 style="margin-top: 5%;">E-Ducate Time</h4>
+			<h3 class="my-4">Anytime , Anywhere!</h3>
+
+			<div class="form-inline justify-content-center">
+				<input type="text" name="Email" id="email" placeholder="Email" size="40" class="form-control px-4 py-2">
+				<input type="button" value="Contact Us" class="btn btn-danger px-4 py-2">
+			</div>
+			<div class="social" style="margin: 5%;">
+				<div class="d-flex flex-row justify-content-center">
+					<i class="fab fa-facebook-f m-2"></i>
+					<i class="fab fa-twitter m-2"></i>
+					<i class="fab fa-instagram m-2"></i>
+				</div>
+				
+			</div>
+			<hr>
+			<h5 style="color: #b89778"> E-Ducate Time &copy;</h5>
+		</div>
 	</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
 </html>
